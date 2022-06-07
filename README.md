@@ -1,4 +1,4 @@
-<<<<<<< HEAD
-# thomazjb
+
+# Thomaz J.B.
 Quem sou eu? 
 =======
