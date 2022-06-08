@@ -7,16 +7,13 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-         THOMAZ J. BONCOMPAGNI
+        <pre>  ________  ______  __  ______ _____          __   ____ 
+ /_  __/ / / / __ \/  |/  /   /__  /         / /  / __ )
+  / / / /_/ / / / / /|_/ / /| | / /     __  / / / __  |
+ / / / __  / /_/ / /  / / ___ |/ /__   / /_/ / / /_/ / 
+/_/ /_/ /_/\____/_/  /_/_/  |_/____/   \____(_)_____(_)
+                                                       </pre>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
