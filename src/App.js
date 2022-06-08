@@ -5,7 +5,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <pre>     .----.   @   @
+   / .-"-.`.  \v/
+   | | '\ \ \_/ )
+ ,-\ `-.' /.'  /
+'---`----'----'</pre>
         <p>
         <pre>  ________  ______  __  ______ _____          __   ____ 
  /_  __/ / / / __ \/  |/  /   /__  /         / /  / __ )
