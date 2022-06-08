@@ -1,5 +1,7 @@
-import logo from './logo.svg';
+
 import './App.css';
+import { FaLinkedin, FaInstagram } from 'react-icons/fa';
+
 
 function App() {
   return (
@@ -14,7 +16,15 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Linked-in
+         <h5><FaLinkedin size="1.5em" /> <br></br> Linked-in</h5>
+        </a>
+        <a
+          className="App-link"
+          href="https://www.instagram.com/thomazjb/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaInstagram size="1.5em" /> <br></br>Instagram
         </a>
       </header>
     </div>
