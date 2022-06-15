@@ -7,16 +7,18 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+      <div className="App-box scale-up-center">
+        
         <p>
-         THOMAZ J. BONCOMPAGNI
+         <strong>THOMAZ J. BONCOMPAGNI</strong>
         </p>
-        <a
+        <p><a
           className="App-link"
           href="https://www.linkedin.com/in/thomazjb/"
           target="_blank"
           rel="noopener noreferrer"
         >
-         <h5><FaLinkedin size="1.5em" /> <br></br> Linked-in</h5>
+         <p><FaLinkedin size="1.5em" /> Linked-in</p>
         </a>
         <a
           className="App-link"
@@ -24,8 +26,10 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaInstagram size="1.5em" /> <br></br>Instagram
+          <FaInstagram size="1.5em" /> Instagram
         </a>
+        </p>
+        </div>
       </header>
     </div>
   );
