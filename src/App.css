@@ -18,7 +18,8 @@
 	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
-.App-header {
+
+.App-body {
   background-color: #123;
   min-height: 100vh;
   display: flex;
@@ -31,7 +32,6 @@
 
 .App-link {
   color: #61dafb;
-
 }
 
 .App-box {
