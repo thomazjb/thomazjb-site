@@ -13,6 +13,8 @@ function Home() {
         <p><strong>THOMAZ J. BONCOMPAGNI</strong></p>
         <p><i>Full Stack Developer</i></p>
         <br></br>
+        <p><i>“A necessidade é a mãe da inovação“</i> - Platão</p>
+        <br></br>
         <a className="App-link" href="https://www.linkedin.com/in/thomazjb/" target="_blank" rel="noreferrer"><FaLinkedin size="1.0em" /> Linked-in   </a>
         <a className="App-link" href="https://www.instagram.com/thomazjb/" target="_blank" rel="noreferrer" ><FaInstagram size="1.0em" /> Instagram </a>
         
