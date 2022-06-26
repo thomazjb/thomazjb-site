@@ -1,7 +1,7 @@
 import { FaLinkedin, FaInstagram } from 'react-icons/fa';
 
 
-function Content() {
+function Home() {
   return (
       <div className="App-body">
       <div className="App-box scale-up-center bg-gray-800">
@@ -21,4 +21,4 @@ function Content() {
   );
 }
 
-export default Content;
+export default Home;

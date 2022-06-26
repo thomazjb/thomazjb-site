@@ -1,5 +1,6 @@
 
 import './App.css';
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -13,10 +14,9 @@ function Navbar() {
                 </div>
                 <div className="hidden sm:block sm:ml-6 justify-end">
                   <div className="flex space-x-4">
-                  
-                    <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Sobre</a>
-                    <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contato</a>
-
+                        <Link to="/" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</Link>
+                        <Link to="/about" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Sobre</Link>
+                        <Link to="/contact" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contato</Link>
                   </div>
                 </div>
               </div>
