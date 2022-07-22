@@ -2,8 +2,7 @@
 import '../App.css';
 const Navbar =({children}) =>{ 
   return (
-   
-       <nav className="bg-gray-800 drop-shadow-md" >
+        <nav className="bg-gray-800 drop-shadow-md" >
           <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
             <div className="relative flex items-center justify-end h-16">
             
@@ -20,9 +19,7 @@ const Navbar =({children}) =>{
             </div>
           </div>
         </nav>
-       
   );
 }
-
 
 export default Navbar;
