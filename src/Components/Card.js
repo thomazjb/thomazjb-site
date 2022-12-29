@@ -3,8 +3,8 @@ import React from 'react';
 const Card =({children}) =>{
   return(
   <div className='showcase scale-up-center'>
-    <div class="nes-container is-dark with-title">
-  {/* <p class="title">Container.is-dark</p> */}
+    <div className="nes-container is-dark with-title">
+  {/* <p className="title">Container.is-dark</p> */}
       {children}
     </div>
   </div>
