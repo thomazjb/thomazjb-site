@@ -1,6 +1,7 @@
 import { FaLinkedin, FaInstagram } from 'react-icons/fa';
 import Card from '../Components/Card';
 import "nes.css/css/nes.min.css";
+// import "nes.icons/css/nes-icons.min.css";
 
 
 function Home() {
@@ -8,7 +9,7 @@ function Home() {
       <div className="App-body">
       <Card>
         <div >
-        <img className="rounded-full" src="https://pbs.twimg.com/profile_images/1058535016903385088/yf4L1WUq_400x400.jpg" alt="Eu" width="150px" ></img>
+        <img className="rounded-full" style={{imageRendering: "pixelated"}} src="https://pbs.twimg.com/profile_images/1058535016903385088/yf4L1WUq_400x400.jpg" alt="Eu" width="150px" ></img>
         </div>
         <br></br>
         <p><strong>THOMAZ J. BONCOMPAGNI</strong></p>
@@ -16,8 +17,10 @@ function Home() {
         <br></br>
         <p><i>“A necessidade é a mãe da inovação“</i> - Platão</p>
         <br></br>
-        <a className="App-link" href="https://www.linkedin.com/in/thomazjb/" target="_blank" rel="noreferrer"><FaLinkedin size="1.0em" /> Linked-in   </a>
-        <a className="App-link" href="https://www.instagram.com/thomazjb/" target="_blank" rel="noreferrer" ><FaInstagram size="1.0em" /> Instagram </a>
+        <div class="grid grid-cols-2 gap-4">
+          <div><a className="App-link" href="https://www.linkedin.com/in/thomazjb/" target="_blank" rel="noreferrer"><FaLinkedin size="1.5em" /> <span>Linked-in </span></a></div>
+          <div><a className="App-link" href="https://www.instagram.com/thomazjb/" target="_blank" rel="noreferrer" ><FaInstagram size="1.5em" /> <span>Instagram </span></a></div>
+        </div>
 
         </Card>
       </div>
