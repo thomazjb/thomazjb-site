@@ -17,10 +17,10 @@ function Home() {
         <br></br>
         <a className="App-link" href="https://www.linkedin.com/in/thomazjb/" target="_blank" rel="noreferrer"><FaLinkedin size="1.0em" /> Linked-in   </a>
         <a className="App-link" href="https://www.instagram.com/thomazjb/" target="_blank" rel="noreferrer" ><FaInstagram size="1.0em" /> Instagram </a>
-        
+
         </Card>
       </div>
-    
+
   );
 }
 

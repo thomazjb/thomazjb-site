@@ -9,13 +9,13 @@ import Contact from './pages/Contact';
 function App() {
   return (
     <div className="App">
-      <ParticlesBackground/>
+      {/* <ParticlesBackground/> */}
         <Router>
         <header className="App-header">
         <Navbar>
-          <Link to="/" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</Link>
-          <Link to="/about" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Sobre</Link>
-          <Link to="/contact" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contato</Link>
+          <Link to="/" className="nes-btn">Home</Link>
+          <Link to="/about" className="nes-btn">Sobre</Link>
+          <Link to="/contact" className="nes-btn">Contato</Link>
         </Navbar>
       </header>
             <Routes>

@@ -1,5 +1,6 @@
 import { FaLinkedin, FaInstagram } from 'react-icons/fa';
 import Card from '../Components/Card';
+import "nes.css/css/nes.min.css";
 
 
 function Home() {
@@ -17,10 +18,10 @@ function Home() {
         <br></br>
         <a className="App-link" href="https://www.linkedin.com/in/thomazjb/" target="_blank" rel="noreferrer"><FaLinkedin size="1.0em" /> Linked-in   </a>
         <a className="App-link" href="https://www.instagram.com/thomazjb/" target="_blank" rel="noreferrer" ><FaInstagram size="1.0em" /> Instagram </a>
-        
+
         </Card>
       </div>
-    
+
   );
 }
 

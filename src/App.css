@@ -20,7 +20,7 @@
 
 
 .App-body {
-  background-color: #123;
+  /* background-color: #123; */
   min-height:80vh;
   display: flex;
   flex-direction: column;
@@ -35,7 +35,7 @@
 }
 
 .App-box {
-  
+
   padding: 50px;
   border-radius: 11px;
   box-shadow:  20px 20px 60px #22252c,
