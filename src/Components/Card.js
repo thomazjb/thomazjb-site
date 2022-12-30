@@ -3,8 +3,7 @@ import React from 'react';
 const Card =({children}) =>{
   return(
 
-    <div className="nes-container is-dark with-title">
-  {/* <p className="title">Container.is-dark</p> */}
+    <div className="nes-container is-rounded is-dark with-title">
       {children}
     </div>
 

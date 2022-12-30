@@ -5,7 +5,7 @@ import "nes.css/css/nes.min.css";
 
 function Contact() {
   return (
-    <div className="App-body">
+    <div className="App-body scale-up-center">
        <Card>
         <div>
         <div id="balloons" className="item">

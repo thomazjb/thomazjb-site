@@ -5,10 +5,10 @@ import "nes.css/css/nes.min.css";
 
 function Home() {
   return (
-      <div className="App-body">
+      <div className="App-body scale-up-center">
       <Card>
         <div >
-        <img className="rounded-full" style={{imageRendering: "pixelated"}} src="https://pbs.twimg.com/profile_images/1058535016903385088/yf4L1WUq_400x400.jpg" alt="Eu" width="150px" ></img>
+        <img className="rounded-full" style={{imageRendering: "pixelated", border: "3px dashed"}} src="https://pbs.twimg.com/profile_images/1058535016903385088/yf4L1WUq_400x400.jpg" alt="Eu" width="150px" ></img>
         </div>
         <br></br>
         <p><strong>THOMAZ J. BONCOMPAGNI</strong></p>
