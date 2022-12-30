@@ -1,6 +1,5 @@
 import React from "react"
 import Navbar from "./Components/Navbar";
-import ParticlesBackground from "./Components/ParticlesBackground";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from './pages/Home';
 import About from './pages/About';
