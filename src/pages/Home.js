@@ -1,7 +1,6 @@
 import { FaLinkedin, FaInstagram } from 'react-icons/fa';
 import Card from '../Components/Card';
 import "nes.css/css/nes.min.css";
-// import "nes.icons/css/nes-icons.min.css";
 
 
 function Home() {
