@@ -4,10 +4,10 @@ const Chat =({text,icon, from}) =>{
 
   if(from === "left" || null) {
     return(
-      <section class="message-left">
-      <div class="grid grid-rows-3 grid-flow-col gap-4">
-        <div class="row-start-2 row-span-2 ..."><i className={`nes-${icon}`}> </i></div>
-        <div class="nes-balloon from-left is-dark row-end-3 row-span-2 col-start-2 col-end-7"><p>{text}</p></div>
+      <section className="message-left">
+      <div className="grid grid-rows-3 grid-flow-col gap-4">
+        <div className="row-start-2 row-span-2 ..."><i className={`nes-${icon}`}> </i></div>
+        <div className="nes-balloon from-left is-dark row-end-3 row-span-2 col-start-2 col-end-7"><p>{text}</p></div>
       </div>
     </section>
     )
@@ -15,10 +15,10 @@ const Chat =({text,icon, from}) =>{
 
   if(from === "right" || null) {
     return(
-      <section class="message-right">
-        <div class="grid grid-rows-3 grid-flow-col gap-4">
-          <div class="nes-balloon from-right is-dark row-end-3 row-span-2 col-start-1 col-end-7"><p>{text}</p></div>
-          <div class="row-start-2 row-span-2 ..."><i className={`nes-${icon}`}></i></div>
+      <section className="message-right">
+        <div className="grid grid-rows-3 grid-flow-col gap-4">
+          <div className="nes-balloon from-right is-dark row-end-3 row-span-2 col-start-1 col-end-7"><p>{text}</p></div>
+          <div className="row-start-2 row-span-2 ..."><i className={`nes-${icon}`}></i></div>
         </div>
       </section>
     )

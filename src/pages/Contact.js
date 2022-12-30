@@ -8,10 +8,10 @@ function Contact() {
     <div className="App-body">
        <Card>
         <div>
-        <div id="balloons" class="item">
-          <section class="nes-container is-dark with-title">
-            <p class="title">Contato</p>
-            <section class="message-list">
+        <div id="balloons" className="item">
+          <section className="nes-container is-dark with-title">
+            <p className="title">Contato</p>
+            <section className="message-list">
              <Chat text="Olá meu querido!" icon="ash" from="left"/>
              <Chat text="Fala patrão!" icon="charmander" from="right"/>
             </section>
