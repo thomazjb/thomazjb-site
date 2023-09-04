@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Navbar from "../src/Components/Navbar";
 import ParticlesBackground from "../src/Components/ParticlesBackground";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
@@ -32,7 +31,7 @@ function App() {
 }
 function SafeHydrate({ children }) {
     return (
-      <div suppressHydrationWarning> 
+      <div suppressHydrationWarning>
         {typeof document === 'undefined' ? null : children}
       </div>
     )
