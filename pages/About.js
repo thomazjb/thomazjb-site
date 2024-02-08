@@ -6,7 +6,7 @@ function Home() {
       <div className="App-body">
       <Card>
         <div >
-        <img className="rounded-full" src="https://media.licdn.com/dms/image/D4D03AQFObt-Qp31jqQ/profile-displayphoto-shrink_800_800/0/1683832275386?e=1708560000&v=beta&t=HRyIWdAcmsEN31Ktp-EPJhHSoIxEXvvHCuwjQhFCWTg" alt="Eu" width="150px" ></img>
+        <img className="rounded-full" src="https://media.licdn.com/dms/image/D4D03AQHZtnA81JI1tQ/profile-displayphoto-shrink_800_800/0/1704312640496?e=1712793600&v=beta&t=IlPrbCE1ELu_zB_hFklmGuXCC_GG435Y3A1m0rVaj9M" alt="Eu" width="150px" ></img>
         </div>
         <br></br>
         <h1><strong>Sobre</strong></h1>
