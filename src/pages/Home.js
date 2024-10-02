@@ -8,7 +8,7 @@ function Home() {
       <div className="App-body scale-up-center">
       <Card>
         <div >
-        <img className="rounded-full" style={{imageRendering: "pixelated", border: "3px dashed"}} src="https://media.licdn.com/dms/image/D4D03AQHZtnA81JI1tQ/profile-displayphoto-shrink_800_800/0/1704312640496?e=1712793600&v=beta&t=IlPrbCE1ELu_zB_hFklmGuXCC_GG435Y3A1m0rVaj9M" alt="Eu" width="150px" ></img>
+        <img className="rounded-full" style={{imageRendering: "pixelated", border: "3px dashed"}} src="https://instagram.fbfh10-1.fna.fbcdn.net/v/t51.2885-19/449711657_496974046177040_6133834477489105397_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.fbfh10-1.fna.fbcdn.net&_nc_cat=108&_nc_ohc=-eQ9w6UZWogQ7kNvgGA2xIw&_nc_gid=284b7ebb6d7b47fb94b27ed0eaeab735&edm=AP4sbd4BAAAA&ccb=7-5&oh=00_AYBzBbA_nB3yRSrJrNKEyguBJX8ajDDuGZcye4zhf6iASA&oe=6703B65B&_nc_sid=7a9f4b" alt="Eu" width="150px" ></img>
         </div>
         <br></br>
         <p><strong>THOMAZ J. BONCOMPAGNI</strong></p>
